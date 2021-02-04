@@ -1,7 +1,7 @@
 {
   "name": "snowpack-plugin-copy",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "copy files plugin for snowpack",
   "keywords": [
     "snowpack",
     "plugin",
@@ -18,7 +18,7 @@
     "url": "git+https://github.com/donniean/snowpack-plugin-copy.git"
   },
   "license": "MIT",
-  "author": "",
+  "author": "Donnie An",
   "main": "plugin.js",
   "files": [
     "plugin.js"
