@@ -28,15 +28,15 @@ module.exports = {
     'node/no-missing-import': 'off',
     'node/no-unsupported-features/es-builtins': [
       'error',
-      { version: '>=12.0.0', ignores: [] },
+      { version: '>=14.0.0', ignores: [] },
     ],
     'node/no-unsupported-features/es-syntax': [
       'error',
-      { version: '>=12.0.0', ignores: ['modules'] },
+      { version: '>=14.0.0', ignores: ['modules'] },
     ],
     'node/no-unsupported-features/node-builtins': [
       'error',
-      { version: '>=12.0.0', ignores: [] },
+      { version: '>=14.0.0', ignores: [] },
     ],
   },
   env: {

@@ -26,7 +26,7 @@
   "scripts": {
     "prettier": "npx prettier \"**/*.{js,json,md}\"",
     "eslint": "npx eslint --fix \"**/*.{js}\"",
-    "cspell": "cspell \"**/*\"",
+    "cspell": "cspell \"**\"",
     "prepare": "husky install",
     "pre-commit": "lint-staged",
     "commit": "git-cz",
@@ -41,21 +41,21 @@
     "cpy": "^8.1.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "^12.1.1",
-    "@commitlint/config-conventional": "^12.1.1",
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-conventional": "^13.1.0",
     "babel-eslint": "^10.1.0",
-    "commitizen": "^4.2.3",
-    "cspell": "^5.4.0",
+    "commitizen": "^4.2.4",
+    "cspell": "^5.8.2",
     "cz-conventional-changelog": "^3.3.0",
-    "eslint": "^7.25.0",
+    "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-html": "^6.1.2",
-    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-import": "^2.24.2",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-prettier": "^3.4.0",
-    "husky": "^6.0.0",
-    "lint-staged": "^10.5.4",
-    "prettier": "^2.2.1"
+    "eslint-plugin-prettier": "^3.4.1",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.1.2",
+    "prettier": "^2.3.2"
   }
 }
