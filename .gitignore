@@ -256,6 +256,10 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
+### Node Patch ###
+# Serverless Webpack directories
+.webpack/
+
 ### Sass ###
 .sass-cache/
 *.css.map
@@ -322,14 +326,13 @@ $RECYCLE.BIN/
 
 # End of https://www.toptal.com/developers/gitignore/api/jetbrains,macos,node,sass,visualstudiocode,windows,yarn
 
-### Custom ###
 build/
 miniprogram_npm/
+
 !.env
-!.env.local
-!.env.development
-!.env.test
-!.env.production
-!.env.development.local
-!.env.test.local
-!.env.production.local
+!.env.*
+.env.local
+.env.*.local
+
+config/local.*
+config/local-*.*
